@@ -1,0 +1,5 @@
+ /* Nav links  */
+ a.one:link {color:white;text-decoration:none;} 
+ a.one:hover {text-decoration:underline;}
+
+/* Nav links end */  
