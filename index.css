@@ -2,4 +2,10 @@
  a.one:link {color:white;text-decoration:none;text-align: center;justify-content:space-around;;} 
  a.one:hover {text-decoration:underline;}
 
-/* Nav links end */  
+/* Nav links end */
+
+@media (max-width: 768px){
+     .abc{
+         width: 100%;
+     }
+}
