@@ -1,4 +1,8 @@
- /* Nav links  */
+body{
+    overflow-x: visible;
+}
+
+/* Nav links  */
  a.one:link {color:white;text-decoration:none;text-align: center;justify-content:space-around;;} 
  a.one:hover {text-decoration:underline;}
 
@@ -8,4 +12,48 @@
      .abc{
          width: 100%;
      }
+     header{
+        height: 100vh;
+        background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     }
 }
+header{
+    height: 38vh;
+    background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+   }
+   
+   .banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+   }
+   
+  .banner-center h1{
+    font-size: 5rem;
+   }
+   
+   .banner-center p{
+   font-size: 2rem;
+   }
+
+ .class1{
+     height: 40px;
+     display: flex;
+ }
+ .class2{
+     height: 40px;
+ }
+
+
+   
+   
