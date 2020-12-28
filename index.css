@@ -54,6 +54,12 @@ header{
      height: 40px;
  }
 
+ footer{
+     background-color: hsl(216, 53%, 9%);
+     padding-top: 80px;
+ }
+
+
 
    
    
